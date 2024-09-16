@@ -1,0 +1,29 @@
+.container-home {
+  background: linear-gradient(90deg, #6eda78 0%, #ffa200 100%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  width: 300px;
+
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .subTitle {
+    font-size: 14px;
+  }
+
+  :hover {
+    background-color: #ffa200;
+    color: white;
+    cursor: pointer;
+  }
+}
